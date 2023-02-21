@@ -86,7 +86,7 @@ ul.lnb li:hover{
     float:left;
 }
 
-
+/* hero */
 
 .main{
     height: 200px;
@@ -100,10 +100,104 @@ ul.lnb li:hover{
     width:40%;
     padding:10px;
 }
+.tab{
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    padding:0;
+    justify-content:flex-start;
+    padding-left: 10px;
+}
+.tab a{
+    display:block;
+    line-height:35px;
+    background:#fff3e6;
+    color:#a57401;
+    padding-left:15px;
+    padding-right:15px;
+}
+.tab a.active{
+    background: #ffe3a0;
+    color:#222328;
+    font-weight:bold;
+}
+.tab-content{
+    background:#ffe3a0;
+    padding:7px 20px 3px;
+}
+.tab-content>div{
+    display:none;
+}
+.tab-content>div.active{
+    display:block;
+}
+#notice li{
+    border-bottom: 1px dashed #757782
+}
+#notice li:hover{
+    background-color:#fcd16d;
+    transition:all 300ms;
+}
+#notice a{
+    line-height:15px;
+}
+#gallery{
+    text-align: center;
+}
+#gallery img{
+    width:120px;
+    height:120px;
+    margin:10px 8px 9px;
+}
 .banner,.quick{
     width:30%;
     padding:10px;    
 }
+.banner img{
+    margin-bottom:3px;
+}
+.quick{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top:50px;
+}
+.quick ul{
+    width:33.33333%;
+    list-style: none;
+    padding-left:0;
+    padding-right:20px;
+    margin:0;
+}
+.quick img{
+    width:80%;
+}
 footer{
     height:100px;
+    background-color:#b1b1b1;
+    color:#fff;
+    display:flex;
+}
+footer div{
+    width:33.3333334%
+}
+.logoarea{
+    padding:30px 20px 0;
+    width:20%;
+}
+.copyarea{
+    width:60%;
+    text-align: center;
+}
+.copyarea p{
+    margin:0;
+    padding:0;
+    margin-top: 7px;
+}
+.copyarea p:first-child{
+    margin-top: 10px;
+}
+.snsarea{
+    width:20%;
+
 }
