@@ -156,7 +156,11 @@ ul.lnb li:hover{
 .banner img{
     margin-bottom:3px;
 }
-.quick{
+.baro{
+    text-align: center;
+    background-color: #bac5fc;
+}
+.quick-menu{
     display:flex;
     justify-content: space-between;
     text-align: center;
