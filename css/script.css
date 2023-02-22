@@ -199,5 +199,25 @@ footer div{
 }
 .snsarea{
     width:20%;
-
+    margin-top:24px;
+}
+a.sns{
+    display: inline-block;
+    text-indent: -5000px;
+    width:50px;
+    height:50px;
+    border:1px solid #ddd;
+    border-radius:5px;
+    margin-left:10px;
+    background: url(../images/sns이미지.jpg) no-repeat;
+    background-size: 515%;
+}
+a.sns.facebook{
+    background-position: -43px -8px;
+}
+a.sns.twitter{
+    background-position: -100px -66px;
+}
+a.sns.youtube{
+    background-position: -43px -66px;
 }
